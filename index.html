@@ -5,27 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <script src="https://kit.fontawesome.com/66d1c73752.js" crossorigin="anonymous"></script>
   <title>Frontend Mentor | Launch countdown timer</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-
-  We're launching soon
-
-  Days
-  Hours
-  Minutes
-  Seconds
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="main">
+    <h1 class="heading">We're launching soon</h1>
+    <div class="counter">
+      <div class="item">
+        <p class="count day">00</p>
+        <p class="text">Days</p>
+      </div>
+      <div class="item">
+        <p class="count hour">00</p>
+        <p class="text">Hours</p>
+      </div>
+      <div class="item">
+        <p class="count minute">00</p>
+        <p class="text">Minutes</p>
+      </div>
+      <div class="item">
+        <p class="count second">00</p>
+        <p class="text">Seconds</p>
+      </div>
+    </div>
   </div>
+  <div class="footer">
+    <a href="./" class="icon"><i class="fab fa-facebook-square"></i></a>
+    <a href="./" class="icon"><i class="fab fa-pinterest"></i></a>
+    <a href="./" class="icon"><i class="fab fa-instagram"></i></a>
+  </div>
+  <script src="./index.js"></script>
 </body>
 </html>
